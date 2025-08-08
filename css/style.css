@@ -1,0 +1,156 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+.introduce p {
+    margin-left: 40px;
+}
+
+.skills {
+    display: flex;
+    list-style: none;
+    margin-bottom: 20%;
+}
+
+ul {
+    text-align: left;
+    margin-left: 30px;
+}
+
+li {
+    margin-right: 30px;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+    font-size: 70px;
+    margin-left: 20px;
+}
+
+.one_block {
+    display: flex;
+    justify-content: center;
+}
+
+.introduce {
+    width: 500px;
+    height: auto;
+    margin-bottom: 20%;
+}
+
+.my_img {
+    width: 450px;
+    height: auto;
+    border-radius: 20%;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    text-align: center;
+}
+
+.line::before ,
+.line::after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: white;
+}
+
+.line::before {
+    margin-right: 20px;
+}
+
+.line::after {
+    margin-left: 20px;
+}
+
+h2 {
+    margin-right: 70px;
+}
+
+.url_tag a {
+    text-align: center;
+    color: white;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.url_tag a:hover {
+    font-size: 1.2em;
+    transition: .5s;
+}
+
+
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 80px;
+    justify-items: center;
+    text-align: center;
+}
+
+.icon a { 
+    color: white;
+    transition: .5s;
+}
+
+.icon a:hover {
+    font-size: 1.2em;
+    transition: .5s;
+}
+
+.contacts {
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts::before ,
+.contacts::after {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: white;
+}
+
+.contacts::before {
+    margin-right: 5px;
+}
+
+.contacts::after {
+    margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+    .one_block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .my_img {
+        width: 80%;
+    }
+    h1 {
+        font-size: 40px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .introduce {
+        width: 90%;
+        margin-bottom: 10%;
+    }
+    .introduce p {
+        margin-left: 0;
+        line-height: 1.8;
+    }
+}

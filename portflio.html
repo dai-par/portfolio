@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daiki`s Portflio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="https://kit.fontawesome.com/c686b44e4d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>DAIKI FUKUSHIMA</h1>
+    </header>
+    <main>
+    <span class="one_block">
+    <div class="second_block">
+        <div class="introduce"><h2 class="line">INTRODUCE</h2>
+            <p class="text">はじめまして！<br>
+            学生エンジニアのDaikiです！<br>
+            普段からwebアプリ開発やwebデザインの学習中！<br>
+            お客様に寄り添ったデザイン・開発を行います。</p></div>
+        
+        <h2 class="line">SKILLS</h2>
+        <ul class="skills">
+            <li class="python">Python</li>
+            <li class="mark">HTML</li>
+            <li class="css">CSS</li>
+            <li class="js">JavaScript</li>
+        </ul>
+
+        <div class="gihub">
+        <h2 class="line">GitHub</h2>  
+        <div class="url_tag"><a href="https://github.com/dai-par/urlmanagement_app">https://github.com/dai-par/urlmanagement_app</a></div>
+        </div>
+        
+    </div> 
+
+    <img src="img/myImage.jpg" class="my_img"/>
+    </span>
+    </main>
+    
+    <footer>
+    <h4 class="contacts">CONTACTS</h4>
+    <div class="icon">
+        <a href="https://www.instagram.com/dd__cong/"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    </footer>
+    
+
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true, distance: '60px' });
+        ScrollReveal().reveal('h1', { delay: 500 });
+        ScrollReveal().reveal('h2', { delay: 700 });
+        ScrollReveal().reveal('.text', { delay: 900, origin: 'left', interval: 200 });
+        ScrollReveal().reveal('.python', { delay: 950, origin: 'left', interval: 200 });
+        ScrollReveal().reveal('.mark', { delay: 1000, origin: 'left', interval: 200 });
+        ScrollReveal().reveal('.css', { delay: 1050, origin: 'left', interval: 200 });
+        ScrollReveal().reveal('.js', { delay: 1100, origin: 'left', interval: 200 });
+
+        ScrollReveal().reveal('.url_tag', { delay: 900, origin: 'left', interval: 200 });
+        ScrollReveal().reveal('img', { delay: 1200, origin: 'right', interval: 400 });
+        ScrollReveal().reveal('.contacts', { delay: 700});
+        ScrollReveal().reveal('.icon', { delay: 900, origin: 'bottom', interval: 400});
+
+        
+
+
+    </script>
+</body>
+</html>
