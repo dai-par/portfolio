@@ -146,11 +146,9 @@ h2 {
 }
 .my_img {
     width: 80%;
+    margin-top: 20px;
 }
 
-.second_block {
-    margin-bottom: 10px;
-}
 
 
 }
