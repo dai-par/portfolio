@@ -144,16 +144,13 @@ h2 {
     flex-direction:column;
     align-items: center;
     display: block;
+    padding-bottom: 20px;
 }
 .my_img {
     width: 80%;
     display: block;
-    margin-bottom: 20px;
 }
 
-.url_tag {
-    margin-top: 10px;
-}
 
 }
 
