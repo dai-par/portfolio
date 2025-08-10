@@ -141,11 +141,16 @@ h2 {
     flex-direction:column;
     align-items: center;
 }
+.my_img {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.url_tag {
+    margin-top: 10px;
+}
 
 }
 
 @media screen and (max-width: 480px) {
-.url_tag {
-    margin-bottom: 10%;
-}
 }
