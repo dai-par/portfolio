@@ -141,6 +141,8 @@ h2 {
     display: block;
 }
 .one_block {
+    flex-direction:column;
+    align-items: center;
     max-width: 768px;
 }
 .my_img {
@@ -162,9 +164,6 @@ h2 {
     display: inline-block;
 }
 
-.second_block {
-    justify-content: center;
-}
 
 
 
