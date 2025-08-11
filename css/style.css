@@ -157,6 +157,9 @@ h2 {
 
 @media screen and (max-width: 480px) {
 .one_block {
+    flex-direction:column;
+    align-items: center;
+    width:80%;
     max-width: 480px;
 }
 
