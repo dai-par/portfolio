@@ -153,6 +153,10 @@ h2 {
 .introduce {
     width: 100%; margin: 0 auto;
 }
+.second_block {
+    display: block;
+    justify-content: center;
+}
 
 
 
