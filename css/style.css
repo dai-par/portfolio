@@ -151,11 +151,12 @@ h2 {
 }
 
 .introduce {
-    width: 100%;
+    width: 100%; margin: 0 auto;
 }
 
 .introduce p {
     margin-left: 0;
+    text-align: left;
 }
 
 
@@ -164,6 +165,9 @@ h2 {
     display: inline-block;
 }
 
+.second_block {
+    justify-content: center;
+}
 
 
 
