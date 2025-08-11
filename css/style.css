@@ -152,15 +152,19 @@ h2 {
 
 .introduce {
     width: 100%; margin: 0 auto;
+    margin-left: 0;
+    text-align: center;
 }
 .second_block {
     justify-content: center;
 }
 
 .url_tag {
-    text-align: center;
+    margin-left: 0;
+    display: inline-block;
 }
 .text {
+    margin-left: 0;
     text-align: center;
 }
 
