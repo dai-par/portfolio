@@ -139,12 +139,10 @@ h2 {
 @media screen and (max-width: 768px) {
 
 .one_block {
-    display: block;
     justify-content: center;
 }
 
 .line {
-    display: block;
     justify-content: center;
     align-items: center;
     font-size: 26px;
